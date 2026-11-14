@@ -1,0 +1,1 @@
+document.querySelector('#copy').addEventListener('click',async()=>{const s=document.querySelector('#status');try{await navigator.clipboard.writeText('@JAMLIN125');s.textContent='Copied @JAMLIN125';}catch{ s.textContent='Please copy: @JAMLIN125';}});
